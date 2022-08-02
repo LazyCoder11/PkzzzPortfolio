@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oxygen:wght@300&family=Poppins:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@100&family=Cairo&family=Cormorant+SC:wght@300&family=Montserrat:wght@300&family=Oxygen:wght@300&family=PT+Sans&family=Poppins:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@100&family=Cairo&family=Cormorant+SC:wght@300&family=Courgette&family=Montserrat:wght@300&family=Oxygen:wght@300&family=PT+Sans&family=Poppins:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Barlow:wght@100&family=Cairo&family=Cormorant+SC:wght@300&family=Courgette&family=Montserrat:wght@300&family=Oxygen:wght@300&family=PT+Sans&family=Poppins:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Barlow:wght@100&family=Cairo&family=Cormorant+SC:wght@300&family=Courgette&family=Montserrat:wght@300&family=Oxygen:wght@300&family=PT+Sans&family=Poppins:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+header nav {
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    height: 20%;
+    /* border-bottom: 1px solid rgba(0, 0, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav .navbar ul{
+    display: flex;
+    list-style-type: none;
+    transition: 0.3s linear;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+header nav .navbar ul li{
+    margin: 10px 50px 5px 40px;
+    font-weight: 500;
+}
+header nav .navbar ul li:hover{
+    color: rgb(13, 0, 255);
+}
+header nav .navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header nav .logo{
+    width: 80px;
+    margin: 5px 90px 5px 95px;
+    cursor: pointer;
+}
+header nav .btn-contact {
+    padding: 4px 30px;
+    background: rgb(0, 34, 255);
+    border: 2px solid #000;
+    outline: #000;
+    color: rgb(255, 255, 255);
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+header nav .btn-contact:hover{
+    border: 1px solid rgb(13, 0, 255);
+    background-color: rgb(13, 0, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+header nav .btn-contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* adding content */
+.content{
+    background-position: right;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.content .left-box{
+    width: 50%;
+    margin: 90px 0px 0px 50px;
+    color: #fff;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.content .left-box .coms{
+    color: rgb(229, 17, 17);
+    font-size: 13px;
+    font-weight: 500;
+}
+.content .left-box h1{
+    font-family: 'Cormorant SC', serif;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.825);
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 50px;
+}
+.content .left-box .studio{
+    margin-top: 10px;
+    color: rgb(95, 82, 82);
+    font-size: 14px;
+}
+.content .left-box .btn-hire{
+    padding: 8px 30px;
+    background: rgb(13, 0, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 40px 0px 0px 10px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.content .left-box .btn-hire a{
+    text-decoration: none;
+    color: #fff;
+}
+.content .left-box .btn-hire:hover{
+    background-color: rgba(255, 255, 255, 0.348);
+    color: rgb(0, 0, 0);
+}
+.content .left-box .btn-hire:hover a{
+    color: #000;
+}
+.content .left-box .bi-instagram,.bi-twitter,.bi-facebook{
+    color: blue;
+    margin: 10px 5px 0px 20px;
+    cursor: pointer;
+}
+.content .left-box .bi-instagram:hover,.bi-twitter:hover,.bi-facebook:hover{
+    color: #000;
+}
+.content .right-box{
+    width: 50%;
+    margin-top: 70px;
+}
+.content .right-box img{
+    width: 65%;
+    margin-left: 75px;
+}
+#about{
+    display: flex;
+    height: 50vh;
+    /* border: 1px solid #fff; */
+}
+#about .left-about{
+    margin: 100px;
+    /* border: 1px solid #fff; */
+    font-size: 30px;
+    color: #fff;
+    width: 50%;
+}
+#about h3{
+    color: rgb(34, 34, 210);
+    width: 50%;
+    margin-left: 100px;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    font-weight: 300;
+}
+#about .bio{
+    margin: 20px 0px 0px 100px;
+    font-size: 15px;
+}
+#about .right-about{
+    width: 50%;
+    /* border: 1px solid #fff; */
+}
+#about .right-about img{
+    width: 75%;
+    margin: 100px 0px 0px 100px;
+}
+.services{
+    /* display: grid; */
+    display: flex;
+    height: 50vh;
+    /* border: 1px solid #fff; */
+}
+.title{
+    color: rgb(34, 34, 210);
+    width: 50%;
+    margin-left: 175px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    font-weight: 300;
+    /* border: 1px solid #fff; */
+}
+/* DISCORD_BOT STARTING */
+.services .discord-bot{
+    display: block;
+}
+.services .discord-bot .bi-code-slash{
+    padding: 20px;
+    background: rgb(13, 0, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px 0px 0px 150px;
+}
+.services .details-bot{
+    /* height: 20vh; */
+    width: 65%;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    /* border: 1px solid #fff; */
+    margin: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(207, 35, 35);
+}
+.services .details-bot .bi-code-slash{
+    margin: 150px 0px 0px 150px;
+    /* border: 1px solid #fff; */
+}
+.services .details-bot .code-slash{
+    margin: 25px 0px 0px 95px;
+    /* border: 1px sol;id #fff */
+}
+.services .details-discord{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    margin-left: 40px;
+}
+.services #br{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    margin: 0px 0px 0px 115px;
+}
+/* WEB DEV STARTING */
+.service .web-dev{
+    display: block;
+    /* height: 25vh; */
+    border: 1px solid #fff;
+}
+.services .web-dev .bi-laptop{
+    padding: 20px;
+    background: rgb(13, 0, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px 0px 0px 150px;
+}
+.services .details-web{
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    /* border: 1px solid #fff; */
+    margin: 100px 0px 0px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(207, 35, 35);
+}
+.services .web-dev .imp-elements-2{
+    margin: 30px 0px 0px 105px;
+}
+.services .details-bot .laptop-slash{
+    margin: 125px 0px 0px 95px;
+    /* border: 1px solid #fff; */
+}
+.services .details-webdev{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    margin-left: 40px;
+}
+/* GRAPHIC DESIGN STARTING */
+.service .graphic{
+    display: block;
+    /* height: 25vh; */
+    border: 1px solid #fff;
+}
+.services .graphic .bi-boxes{
+    padding: 20px;
+    background: rgb(13, 0, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px 0px 0px 150px;
+}
+.services .details-gfx{
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    border: 1px solid #fff;
+    margin: 100px 0px 0px 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(207, 35, 35);
+}
+.services .graphic .imp-elements-3{
+    margin: 0px 0px 0px 105px;
+}
+.services .details-gfx .gfx-slash{
+    margin: 125px 0px 0px 95px;
+    /* border: 1px solid #fff; */
+}
+.services .details-gfx{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    margin-left: 40px;
+}
